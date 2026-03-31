@@ -24,3 +24,7 @@ bool cekPrima(int n){
 // function cek fibonacci
 bool cekFibonacci(int n){
      int a = 0, b = 1, c = 0;
+
+     if(n == 0 || n == 1){
+        return true;
+    }
