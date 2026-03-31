@@ -73,5 +73,12 @@ int main(){
                     cout << "Bukan bilangan fibonacci" << endl;
                 }
                 break;
+
+            case 0:
+                cout << "Program selesai" << endl;
+                return 0;
+
+            default:
+                cout << "Pilihan tidak valid" << endl;
     }
 }
