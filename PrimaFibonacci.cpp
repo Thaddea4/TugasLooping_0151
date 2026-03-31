@@ -43,4 +43,6 @@ bool cekFibonacci(int n){
 }
 
 int main(){
+    while(true){
+    }
 }
