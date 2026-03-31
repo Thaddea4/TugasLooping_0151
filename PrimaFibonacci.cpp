@@ -28,3 +28,6 @@ bool cekFibonacci(int n){
      if(n == 0 || n == 1){
         return true;
     }
+
+    while(c < n){
+        c = a + b;
