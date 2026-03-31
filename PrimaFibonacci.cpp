@@ -41,3 +41,6 @@ bool cekFibonacci(int n){
         return false;
     }
 }
+
+int main(){
+}
