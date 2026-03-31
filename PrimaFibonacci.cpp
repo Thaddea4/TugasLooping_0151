@@ -44,5 +44,9 @@ bool cekFibonacci(int n){
 
 int main(){
     while(true){
+        cout << "\n=== MENU ===" << endl;
+        cout << "1. Cek Bilangan Prima" << endl;
+        cout << "2. Cek Bilangan Fibonacci" << endl;
+        cout << "0. Keluar" << endl;
     }
 }
