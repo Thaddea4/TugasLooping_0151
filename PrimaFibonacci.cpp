@@ -9,3 +9,5 @@ bool cekPrima(int n){
       if(n < 2){
         return false;
     }
+
+     int i = 2;
