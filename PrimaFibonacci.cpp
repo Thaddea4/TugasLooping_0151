@@ -20,3 +20,6 @@ bool cekPrima(int n){
 
      return true;
 }
+
+// function cek fibonacci
+bool cekFibonacci(int n){
