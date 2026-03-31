@@ -62,5 +62,16 @@ int main(){
                     cout << "Bukan bilangan prima" << endl;
                 }
                 break;
+
+            case 2:
+                cout << "Masukkan angka: ";
+                cin >> n;
+
+                if(cekFibonacci(n)){
+                    cout << "Bilangan fibonacci" << endl;
+                } else {
+                    cout << "Bukan bilangan fibonacci" << endl;
+                }
+                break;
     }
 }
