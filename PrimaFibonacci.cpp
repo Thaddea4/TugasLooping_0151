@@ -52,5 +52,15 @@ int main(){
         cin >> pilihan;
 
         switch(pilihan){
+            case 1:
+                cout << "Masukkan angka: ";
+                cin >> n;
+
+                if(cekPrima(n)){
+                    cout << "Bilangan prima" << endl;
+                } else {
+                    cout << "Bukan bilangan prima" << endl;
+                }
+                break;
     }
 }
