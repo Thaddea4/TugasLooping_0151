@@ -31,3 +31,6 @@ bool cekFibonacci(int n){
 
     while(c < n){
         c = a + b;
+        a = b;
+        b = c;
+    }
