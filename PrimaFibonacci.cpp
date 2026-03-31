@@ -11,3 +11,6 @@ bool cekPrima(int n){
     }
 
      int i = 2;
+     while(i < n){
+        i++;
+     }
