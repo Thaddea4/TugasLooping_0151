@@ -34,3 +34,10 @@ bool cekFibonacci(int n){
         a = b;
         b = c;
     }
+
+    if(c == n){
+        return true;
+    } else {
+        return false;
+    }
+}
