@@ -6,3 +6,6 @@ int n, pilihan;
 
 // function cek bilangan prima
 bool cekPrima(int n){
+      if(n < 2){
+        return false;
+    }
