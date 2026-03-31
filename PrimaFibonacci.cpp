@@ -50,5 +50,7 @@ int main(){
         cout << "0. Keluar" << endl;
         cout << "Pilih: ";
         cin >> pilihan;
+
+        switch(pilihan){
     }
 }
